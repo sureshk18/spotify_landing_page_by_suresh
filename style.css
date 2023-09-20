@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    background-color: rgb(25, 20, 20);
+    font: "poppins";
+    font-weight: 300, 500, 700;
+}
+nav{
+    background-color: rgb(25, 20, 20);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 25px;
+}
+img{
+    height: 60px;
+    width: 60px;
+} 
+/* li, a{
+    list-style: none;
+    text-decoration: none;
+} */
+/* ul {
+    display: flex;
+    gap: 15px;
+} */
+ul, li, a{
+    color: rgb(255, 255, 255);
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    text-decoration: none;
+}
+/* li a{
+    text-decoration: none;
+} */
+ul li a:hover{
+    color: rgb(30, 215, 96);
+}
